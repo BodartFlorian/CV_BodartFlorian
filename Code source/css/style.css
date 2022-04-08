@@ -6,20 +6,19 @@ body{
     font-family: 'Oldenburg', sans-serif;
     padding: 10px 50px 0px 50px;
 }
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 @media screen and (max-width: 429px){
     body {
         padding: 30px;
     }
-    header {
-        background-color: rgb(34, 29, 29);
-        border-radius: 10px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 120px;
-    }
     .img_profil{
-        border-radius: 50%;
+        border-radius: 15px;
+        margin-left: 5%;
     }
 }
 @media screen and (min-width: 430px){
@@ -27,9 +26,11 @@ body{
 }
 h1, h2, h3{
     text-transform: capitalize;
+    padding: 0 20px 0 20px;
 }
 li{
     list-style-type: none;
+    padding-left: 20px;
 }
 .first_line { 
     color: black; 
@@ -38,6 +39,16 @@ li{
 .contact_ext{
     display: flex;
 }
-li{
-    padding-left: 10px;
+.text_area{
+    background-color: rgb(68, 68, 68);
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.6);
+}
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
 }
