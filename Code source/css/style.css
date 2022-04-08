@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Oldenburg";
+    src: url(../fonts/Oldenburg/Oldenburg-Regular.ttf) format("truetype");
+}
+body{
+    font-family: 'Oldenburg', sans-serif;
+    padding: 10px 50px 0px 50px;
+}
+@media screen and (max-width: 429px){
+    body {
+        padding: 30px;
+    }
+    header {
+        background-color: rgb(34, 29, 29);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 120px;
+    }
+    .img_profil{
+        border-radius: 50%;
+    }
+}
+@media screen and (min-width: 430px){
+
+}
+h1, h2, h3{
+    text-transform: capitalize;
+}
+li{
+    list-style-type: none;
+}
+.first_line { 
+    color: black; 
+    text-transform: uppercase;
+}
+.contact_ext{
+    display: flex;
+}
+li{
+    padding-left: 10px;
+}
