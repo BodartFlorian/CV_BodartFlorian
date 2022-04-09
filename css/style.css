@@ -11,9 +11,11 @@
 body{
     font-family: 'Oldenburg', sans-serif;
     text-align: center;
+    background-color: #f1f1f1;
 }
 nav{
-    background-color: antiquewhite;
+    background-color: #f1f1f1;
+    box-shadow: 0px 5px 3px 0px rgba(0, 0, 1, 0.5);
     width: 100%;
     height: 65px;
     position: fixed;
@@ -54,25 +56,25 @@ h3{
 }
 li{
     list-style-type: none;
+}
+#contact li{
+    /* border: 1px solid black; */
+    list-style-type: none;
     text-align: left;
+    padding: 5px;
 }
 .contact_ext{
     display: flex;
     justify-content: space-around;
+    padding: 15px;
 }
-/* .text_area{
-    background-color: rgb(68, 68, 68);
-    border: 2px solid rgb(68, 68, 68);
-    border-radius: 20px;
-    padding: 10px;
-    box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.6);
-} */
 .text_area{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 170, 0, 0.5);
+    background-color: #f1f1f1;
+    border: 2px solid rgba(20, 31, 178);
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 7px 7px 2px 0px rgb(255, 170, 0);
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 1px 0px rgb(20, 31, 178);
 }
 .profil{
     display: flex;
