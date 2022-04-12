@@ -19,14 +19,18 @@ main.onclick = function () {
 }
 
 
+let etatcheckbox = document.querySelector(".switch");
 
-// let light = document.querySelector(".switch");
+etatcheckbox.addEventlistener('change' , function () {
 
-// light.onclick = function () {
+if (this.checked){
+  let H = document.createElement("h2");
+  H.setAttribute("test");
+  let txt = document.createTextNode ("hi");
+  let repNode = document.getElementById("")
+  dark.style.display = 'block';
+} else {
+  dark.style.display = "none";
+}});
 
-// }
-// if (light.Checked == true){
-//   Text.style.display = "block";
-// } else {
-//   Text.style.display = "none";
-// }
+
