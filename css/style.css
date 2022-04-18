@@ -20,6 +20,17 @@
     article {
         padding-top: 80px;
     }
+    #achievement {
+        padding: 0 5px 0 5px;
+    }
+    #achievement img {
+        padding-top: 30px;
+        width: 300px;
+        height: 300px;
+    }
+    #burger_menu_ul {
+        width: 200px;
+    }
 }
 @media only screen and (max-width: 1024px) and (min-width: 480px) {
     section{
@@ -28,15 +39,32 @@
     article {
         padding-top: 80px;
     }
+    #achievement img {
+        padding-top: 30px;
+        width: 400px;
+        height: 400px;
+    }
+    #burger_menu_ul {
+        width: 200px;
+    }
 }
 @media only screen and (min-width: 1024px) {
+    body{
+        font-size: large;
+    }
+    nav{
+        padding-bottom: 75px;
+    }
     nav div{
         margin: 0px 3% 0px 3%;
+    }
+    #burger_menu_ul {
+        width: 300px;
     }
     section {
         margin: 0px 10% 0px 10%;
     }
-    #contact, #formation, #transversales, #experience {
+    #contact, #formation, #transversales, #experience, #achievement {
         padding-top: 80px;
     }
     #formation div, #experience div{
@@ -57,6 +85,11 @@
         height: 520px;
         background-repeat: no-repeat;
         background-position: top;
+    }
+    #achievement img {
+        padding-top: 30px;
+        width: 400px;
+        height: 400px;
     }
 }
 body{
@@ -103,7 +136,6 @@ nav img {
     line-height: 4;
     position: fixed;
     padding-top: 100px;
-    width: 200px;
     height: 100%;
     right: 0px;
     z-index: 1000;
@@ -328,6 +360,9 @@ hr{
     width: 120px;
     height: 120px;
     border-radius: 50%;
+}
+#achievement {
+    padding-top: 80px;
 }
 .footer{
     margin-top: 80px;
