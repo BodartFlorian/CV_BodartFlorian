@@ -233,7 +233,7 @@ body.dark-mode {
 .dark-mode #burger_menu_ul a{
     color: #f1f1f1;
 }
-.dark-mode footer div{
+.dark-mode footer div, .dark-mode footer h2 {
     background-color: rgba(43, 40, 40, 0.667);
 }
 .dark-mode hr{
@@ -258,7 +258,7 @@ section{
 }
 h1, h2{
     text-transform: uppercase;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
     letter-spacing: 2px;
     color: black;
 }
@@ -334,4 +334,28 @@ hr{
 }
 .footer h2{
     padding-top: 30px;
+}
+.footer form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#email {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+.textFormulaire{
+    width: 250px;
+    height: 100px;
+    max-width: 250px;
+    max-height: 100px;
+
+}
+.envoyer {
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: #000000;
 }
