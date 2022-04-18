@@ -7,6 +7,10 @@
     font-family: "Oldenburg";
     src: url(../fonts/Oldenburg/Oldenburg-Regular.ttf) format("truetype");
 }
+@font-face {
+    font-family: "Vesper_Libre";
+    src: url(../fonts/Vesper_Libre/VesperLibre-Regular.ttf) format("truetype");
+}
 @media screen {
     html {
         scroll-behavior: smooth;
@@ -263,6 +267,9 @@ h3 {
 }
 h4 {
     margin: 0px 0px 10px 0px;
+}
+h1, h2, h3, h4{
+    font-family: 'Vesper_Libre', sans-serif;
 }
 a{
     text-decoration: none;
